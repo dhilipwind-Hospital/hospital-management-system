@@ -2,11 +2,9 @@ services:
   # PostgreSQL Database
   - type: pserv
     name: ayphen-hospital-db
-    env: docker
     plan: free
-    databases:
-      - name: hospital_db
-        user: postgres
+    databaseName: hospital_db
+    databaseUser: postgres
 
   # Backend Service
   - type: web
