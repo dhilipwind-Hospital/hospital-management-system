@@ -3,7 +3,6 @@ services:
   - type: web
     name: ayphen-hospital-backend
     runtime: docker
-    plan: free
     region: oregon
     dockerfilePath: ./backend/Dockerfile
     dockerContext: ./backend
@@ -45,7 +44,6 @@ services:
   - type: web
     name: ayphen-hospital-frontend
     runtime: static
-    plan: free
     buildCommand: cd frontend && npm install && npm run build
     staticPublishPath: ./frontend/build
     envVars:
