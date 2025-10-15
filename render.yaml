@@ -3,16 +3,15 @@ services:
   - type: pserv
     name: ayphen-hospital-db
     plan: free
-    ipAllowList: []
 
   # Backend Service
   - type: web
     name: ayphen-hospital-backend
-    env: docker
+    runtime: docker
     plan: free
     region: oregon
-    rootDir: backend
-    dockerfilePath: ./Dockerfile
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
     envVars:
       - key: PORT
         value: 5001
@@ -52,12 +51,10 @@ services:
   # Frontend Service
   - type: web
     name: ayphen-hospital-frontend
-    env: static
+    runtime: static
     plan: free
-    region: oregon
-    rootDir: frontend
-    buildCommand: npm install && npm run build
-    staticPublishPath: build
+    buildCommand: cd frontend && npm install && npm run build
+    staticPublishPath: ./frontend/build
     envVars:
       - key: REACT_APP_API_URL
         value: https://ayphen-hospital-backend.onrender.com
