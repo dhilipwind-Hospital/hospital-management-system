@@ -1,10 +1,9 @@
-databases:
-  - name: ayphen-hospital-db
-    plan: free
-    databaseName: hospital_db
-    user: postgres
-
 services:
+  # PostgreSQL Database
+  - type: pserv
+    name: ayphen-hospital-db
+    plan: free
+    ipAllowList: []
 
   # Backend Service
   - type: web
