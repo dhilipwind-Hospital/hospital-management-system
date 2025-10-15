@@ -1,0 +1,48 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e6]:
+  - button "close" [ref=e7] [cursor=pointer]:
+    - img "close" [ref=e9] [cursor=pointer]:
+      - img [ref=e10] [cursor=pointer]
+  - generic [ref=e12]:
+    - generic [ref=e13]: A
+    - heading "Welcome to AyphenHospital" [level=3] [ref=e14]
+  - generic [ref=e15]: Access your health records, book appointments, and manage your healthcare
+  - generic [ref=e16]:
+    - button "Login" [ref=e17] [cursor=pointer]
+    - button "Register" [ref=e18] [cursor=pointer]
+  - generic [ref=e19]:
+    - generic [ref=e21]:
+      - generic "Email Address" [ref=e23]: "* Email Address"
+      - generic [ref=e27]:
+        - img "mail" [ref=e29]:
+          - img [ref=e30]
+        - textbox "* Email Address" [ref=e32]
+    - generic [ref=e34]:
+      - generic "Password" [ref=e36]: "* Password"
+      - generic [ref=e40]:
+        - img "lock" [ref=e42]:
+          - img [ref=e43]
+        - textbox "* Password" [ref=e45]
+        - img "eye-invisible" [ref=e47] [cursor=pointer]:
+          - img [ref=e48] [cursor=pointer]
+    - generic [ref=e51]:
+      - generic [ref=e57] [cursor=pointer]:
+        - checkbox "Remember me" [checked] [ref=e59] [cursor=pointer]
+        - generic [ref=e61] [cursor=pointer]: Remember me
+      - link "Forgot password?" [ref=e62] [cursor=pointer]:
+        - /url: /forgot-password
+    - button "Login" [ref=e68] [cursor=pointer]:
+      - generic [ref=e69] [cursor=pointer]: Login
+  - generic [ref=e70]: or continue with
+  - generic [ref=e71]:
+    - button "google Google" [ref=e72] [cursor=pointer]:
+      - img "google" [ref=e74] [cursor=pointer]:
+        - img [ref=e75] [cursor=pointer]
+      - generic [ref=e77] [cursor=pointer]: Google
+    - button "facebook Facebook" [ref=e78] [cursor=pointer]:
+      - img "facebook" [ref=e80] [cursor=pointer]:
+        - img [ref=e81] [cursor=pointer]
+      - generic [ref=e83] [cursor=pointer]: Facebook
+```

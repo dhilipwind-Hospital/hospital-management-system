@@ -1,0 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const feedback_controller_1 = require("../controllers/feedback.controller");
+const auth_middleware_1 = require("../middleware/auth.middleware");
+const error_middleware_1 = require("../middleware/error.middleware");
+const router = (0, express_1.Router)();
+router.post('/', auth_middleware_1.authenticate, (0, error_middleware_1.errorHandler)(feedback_controller_1.FeedbackController.submitFeedback));
+router.get('/', auth_middleware_1.authenticate, (0, error_middleware_1.errorHandler)(feedback_controller_1.FeedbackController.getAllFeedback));
+router.get('/my-feedback', auth_middleware_1.authenticate, (0, error_middleware_1.errorHandler)(feedback_controller_1.FeedbackController.getUserFeedback));
+router.get('/statistics', auth_middleware_1.authenticate, (0, error_middleware_1.errorHandler)(feedback_controller_1.FeedbackController.getStatistics));
+router.get('/:id', auth_middleware_1.authenticate, (0, error_middleware_1.errorHandler)(feedback_controller_1.FeedbackController.getFeedback));
+router.post('/:id/respond', auth_middleware_1.authenticate, (0, error_middleware_1.errorHandler)(feedback_controller_1.FeedbackController.respondToFeedback));
+router.put('/:id/status', auth_middleware_1.authenticate, (0, error_middleware_1.errorHandler)(feedback_controller_1.FeedbackController.updateStatus));
+exports.default = router;

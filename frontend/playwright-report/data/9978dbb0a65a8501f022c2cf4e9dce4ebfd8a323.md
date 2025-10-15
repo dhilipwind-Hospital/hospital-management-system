@@ -1,0 +1,45 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e6]:
+  - button "close" [ref=e7] [cursor=pointer]:
+    - img "close" [ref=e9] [cursor=pointer]:
+      - img [ref=e10] [cursor=pointer]
+  - generic [ref=e12]:
+    - img "Ayphen Hospital" [ref=e13]
+    - heading "Welcome to Ayphen Hospital" [level=3] [ref=e14]
+  - generic [ref=e15]: Access your health records, book appointments, and manage your healthcare
+  - generic [ref=e16]:
+    - button "Login" [ref=e17] [cursor=pointer]
+    - button "Register" [ref=e18] [cursor=pointer]
+  - generic [ref=e19]:
+    - generic [ref=e21]:
+      - generic "Email Address" [ref=e23]: "* Email Address"
+      - generic [ref=e27]:
+        - img "mail" [ref=e29]:
+          - img [ref=e30]
+        - textbox "* Email Address" [ref=e32]
+    - generic [ref=e34]:
+      - generic "Password" [ref=e36]: "* Password"
+      - generic [ref=e40]:
+        - img "lock" [ref=e42]:
+          - img [ref=e43]
+        - textbox "* Password" [ref=e45]
+        - img "eye-invisible" [ref=e47] [cursor=pointer]:
+          - img [ref=e48] [cursor=pointer]
+    - generic [ref=e51]:
+      - generic [ref=e57] [cursor=pointer]:
+        - checkbox "Remember me" [checked] [ref=e59] [cursor=pointer]
+        - generic [ref=e61] [cursor=pointer]: Remember me
+      - link "Forgot password?" [ref=e62] [cursor=pointer]:
+        - /url: /forgot-password
+    - button "Login" [ref=e68] [cursor=pointer]:
+      - generic [ref=e69] [cursor=pointer]: Login
+  - generic [ref=e70]: or continue with
+  - generic [ref=e73]:
+    - button "Continue with Google. Opens in new tab" [ref=e75] [cursor=pointer]:
+      - generic [ref=e77] [cursor=pointer]:
+        - img [ref=e79] [cursor=pointer]
+        - generic [ref=e86] [cursor=pointer]: Continue with Google
+    - iframe
+```

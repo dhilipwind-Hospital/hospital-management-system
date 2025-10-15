@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const reminder_controller_1 = require("../controllers/reminder.controller");
+const auth_middleware_1 = require("../middleware/auth.middleware");
+const error_middleware_1 = require("../middleware/error.middleware");
+const router = (0, express_1.Router)();
+router.post('/', auth_middleware_1.authenticate, (0, error_middleware_1.errorHandler)(reminder_controller_1.ReminderController.createReminder));
+router.get('/', auth_middleware_1.authenticate, (0, error_middleware_1.errorHandler)(reminder_controller_1.ReminderController.getUserReminders));
+router.get('/pending', auth_middleware_1.authenticate, (0, error_middleware_1.errorHandler)(reminder_controller_1.ReminderController.getPendingReminders));
+router.post('/appointments/auto', auth_middleware_1.authenticate, (0, error_middleware_1.errorHandler)(reminder_controller_1.ReminderController.createAppointmentReminders));
+router.put('/:id/status', auth_middleware_1.authenticate, (0, error_middleware_1.errorHandler)(reminder_controller_1.ReminderController.updateReminderStatus));
+router.delete('/:id', auth_middleware_1.authenticate, (0, error_middleware_1.errorHandler)(reminder_controller_1.ReminderController.deleteReminder));
+exports.default = router;

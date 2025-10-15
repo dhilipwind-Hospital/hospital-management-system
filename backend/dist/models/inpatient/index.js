@@ -1,0 +1,27 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.DischargeSummary = exports.DoctorNoteType = exports.DoctorNote = exports.MedicationAdministration = exports.VitalSign = exports.NursingNoteType = exports.NursingNote = exports.AdmissionStatus = exports.Admission = exports.BedStatus = exports.Bed = exports.RoomType = exports.Room = exports.Ward = void 0;
+// Inpatient Management Models
+var Ward_1 = require("./Ward");
+Object.defineProperty(exports, "Ward", { enumerable: true, get: function () { return Ward_1.Ward; } });
+var Room_1 = require("./Room");
+Object.defineProperty(exports, "Room", { enumerable: true, get: function () { return Room_1.Room; } });
+Object.defineProperty(exports, "RoomType", { enumerable: true, get: function () { return Room_1.RoomType; } });
+var Bed_1 = require("./Bed");
+Object.defineProperty(exports, "Bed", { enumerable: true, get: function () { return Bed_1.Bed; } });
+Object.defineProperty(exports, "BedStatus", { enumerable: true, get: function () { return Bed_1.BedStatus; } });
+var Admission_1 = require("./Admission");
+Object.defineProperty(exports, "Admission", { enumerable: true, get: function () { return Admission_1.Admission; } });
+Object.defineProperty(exports, "AdmissionStatus", { enumerable: true, get: function () { return Admission_1.AdmissionStatus; } });
+var NursingNote_1 = require("./NursingNote");
+Object.defineProperty(exports, "NursingNote", { enumerable: true, get: function () { return NursingNote_1.NursingNote; } });
+Object.defineProperty(exports, "NursingNoteType", { enumerable: true, get: function () { return NursingNote_1.NursingNoteType; } });
+var VitalSign_1 = require("./VitalSign");
+Object.defineProperty(exports, "VitalSign", { enumerable: true, get: function () { return VitalSign_1.VitalSign; } });
+var MedicationAdministration_1 = require("./MedicationAdministration");
+Object.defineProperty(exports, "MedicationAdministration", { enumerable: true, get: function () { return MedicationAdministration_1.MedicationAdministration; } });
+var DoctorNote_1 = require("./DoctorNote");
+Object.defineProperty(exports, "DoctorNote", { enumerable: true, get: function () { return DoctorNote_1.DoctorNote; } });
+Object.defineProperty(exports, "DoctorNoteType", { enumerable: true, get: function () { return DoctorNote_1.DoctorNoteType; } });
+var DischargeSummary_1 = require("./DischargeSummary");
+Object.defineProperty(exports, "DischargeSummary", { enumerable: true, get: function () { return DischargeSummary_1.DischargeSummary; } });

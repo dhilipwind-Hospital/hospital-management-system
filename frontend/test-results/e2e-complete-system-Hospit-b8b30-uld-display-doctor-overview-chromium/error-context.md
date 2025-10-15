@@ -1,0 +1,269 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e5]:
+  - banner [ref=e6]:
+    - generic [ref=e7]:
+      - link "Ayphen Hospital Ayphen Hospital Excellence in Healthcare" [ref=e8] [cursor=pointer]:
+        - /url: /home
+        - img "Ayphen Hospital" [ref=e9] [cursor=pointer]
+        - generic [ref=e10] [cursor=pointer]:
+          - generic [ref=e11] [cursor=pointer]: Ayphen Hospital
+          - generic [ref=e12] [cursor=pointer]: Excellence in Healthcare
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - img "search" [ref=e17]:
+            - img [ref=e18]
+          - searchbox "Search doctors, specialties, or locations"
+        - button "search" [ref=e21] [cursor=pointer]:
+          - img "search" [ref=e23] [cursor=pointer]:
+            - img [ref=e24] [cursor=pointer]
+      - generic [ref=e26]:
+        - link "🩺 Find Doctor" [ref=e28] [cursor=pointer]:
+          - /url: /doctors
+          - button "🩺 Find Doctor" [ref=e29] [cursor=pointer]:
+            - generic [ref=e30] [cursor=pointer]: 🩺 Find Doctor
+        - link "📅 Book Appointment" [ref=e32] [cursor=pointer]:
+          - /url: /appointments/book
+          - button "📅 Book Appointment" [ref=e33] [cursor=pointer]:
+            - generic [ref=e34] [cursor=pointer]: 📅 Book Appointment
+        - button "phone 🚨 Emergency down" [ref=e36] [cursor=pointer]:
+          - img "phone" [ref=e38] [cursor=pointer]:
+            - img [ref=e39] [cursor=pointer]
+          - generic [ref=e41] [cursor=pointer]: 🚨 Emergency
+          - img "down" [ref=e42] [cursor=pointer]:
+            - img [ref=e43] [cursor=pointer]
+        - link "💬 Contact Us" [ref=e46] [cursor=pointer]:
+          - /url: /request-callback
+          - button "💬 Contact Us" [ref=e47] [cursor=pointer]:
+            - generic [ref=e48] [cursor=pointer]: 💬 Contact Us
+        - link "✨ Register" [ref=e50] [cursor=pointer]:
+          - /url: /register
+          - button "✨ Register" [ref=e51] [cursor=pointer]:
+            - generic [ref=e52] [cursor=pointer]: ✨ Register
+  - main [ref=e53]:
+    - generic [ref=e54]:
+      - generic [ref=e56]:
+        - heading "Trusted Care. Globally Certified Hospital." [level=1] [ref=e57]
+        - generic [ref=e58]: We are committed to providing world-class healthcare services with compassion, innovation, and excellence. Your health and well-being are our top priorities.
+        - generic [ref=e59]:
+          - link "Book Appointment" [ref=e60] [cursor=pointer]:
+            - /url: /appointments/book
+            - button "Book Appointment" [ref=e61] [cursor=pointer]:
+              - generic [ref=e62] [cursor=pointer]: Book Appointment
+          - link "🚨 Emergency" [ref=e63] [cursor=pointer]:
+            - /url: /emergency
+            - button "🚨 Emergency" [ref=e64] [cursor=pointer]:
+              - generic [ref=e65] [cursor=pointer]: 🚨 Emergency
+          - link "Find a Doctor" [ref=e66] [cursor=pointer]:
+            - /url: /doctors
+            - button "Find a Doctor" [ref=e67] [cursor=pointer]:
+              - generic [ref=e68] [cursor=pointer]: Find a Doctor
+      - generic [ref=e70]:
+        - generic [ref=e71]:
+          - generic [ref=e72]:
+            - heading "Centres of Excellence" [level=2] [ref=e73]
+            - generic [ref=e74]: World-class medical care across specialties
+          - generic [ref=e75]:
+            - link "❤️ Cardiology" [ref=e77] [cursor=pointer]:
+              - /url: /services?departmentId=98192c16-2505-4a1d-86ea-77c219dc4141
+              - generic [ref=e79] [cursor=pointer]:
+                - generic [ref=e80] [cursor=pointer]: ❤️
+                - generic [ref=e81] [cursor=pointer]: Cardiology
+            - link "🏥 DHILIP" [ref=e83] [cursor=pointer]:
+              - /url: /services?departmentId=23ef7b4c-5427-4d1d-830e-caeda54503c3
+              - generic [ref=e85] [cursor=pointer]:
+                - generic [ref=e86] [cursor=pointer]: 🏥
+                - generic [ref=e87] [cursor=pointer]: DHILIP
+            - link "✨ Dermatology" [ref=e89] [cursor=pointer]:
+              - /url: /services?departmentId=ccce2a35-c82c-4ee5-8358-330c269d25be
+              - generic [ref=e91] [cursor=pointer]:
+                - generic [ref=e92] [cursor=pointer]: ✨
+                - generic [ref=e93] [cursor=pointer]: Dermatology
+            - link "👂 ENT" [ref=e95] [cursor=pointer]:
+              - /url: /services?departmentId=6cadc40c-f1e1-49ec-8448-7616f4762f64
+              - generic [ref=e97] [cursor=pointer]:
+                - generic [ref=e98] [cursor=pointer]: 👂
+                - generic [ref=e99] [cursor=pointer]: ENT
+        - generic [ref=e100]:
+          - generic [ref=e101]:
+            - heading "Our Locations" [level=2] [ref=e102]
+            - generic [ref=e103]: Find us across multiple cities
+          - generic [ref=e104]:
+            - generic [ref=e107] [cursor=pointer]:
+              - img "City Centre" [ref=e109] [cursor=pointer]
+              - generic [ref=e110] [cursor=pointer]:
+                - generic [ref=e111] [cursor=pointer]:
+                  - img "environment" [ref=e112] [cursor=pointer]:
+                    - img [ref=e113] [cursor=pointer]
+                  - text: Dublin - City Centre
+                - generic [ref=e115] [cursor=pointer]: 1 O'Connell Street
+            - generic [ref=e118] [cursor=pointer]:
+              - img "Ballsbridge" [ref=e120] [cursor=pointer]
+              - generic [ref=e121] [cursor=pointer]:
+                - generic [ref=e122] [cursor=pointer]:
+                  - img "environment" [ref=e123] [cursor=pointer]:
+                    - img [ref=e124] [cursor=pointer]
+                  - text: Dublin - Ballsbridge
+                - generic [ref=e126] [cursor=pointer]: 52 Merrion Road
+            - generic [ref=e129] [cursor=pointer]:
+              - img "City Centre" [ref=e131] [cursor=pointer]
+              - generic [ref=e132] [cursor=pointer]:
+                - generic [ref=e133] [cursor=pointer]:
+                  - img "environment" [ref=e134] [cursor=pointer]:
+                    - img [ref=e135] [cursor=pointer]
+                  - text: Cork - City Centre
+                - generic [ref=e137] [cursor=pointer]: 154 Patrick Street
+            - generic [ref=e140] [cursor=pointer]:
+              - img "Eyre Square" [ref=e142] [cursor=pointer]
+              - generic [ref=e143] [cursor=pointer]:
+                - generic [ref=e144] [cursor=pointer]:
+                  - img "environment" [ref=e145] [cursor=pointer]:
+                    - img [ref=e146] [cursor=pointer]
+                  - text: Galway - Eyre Square
+                - generic [ref=e148] [cursor=pointer]: University Road
+            - generic [ref=e151] [cursor=pointer]:
+              - img "Blackrock" [ref=e153] [cursor=pointer]
+              - generic [ref=e154] [cursor=pointer]:
+                - generic [ref=e155] [cursor=pointer]:
+                  - img "environment" [ref=e156] [cursor=pointer]:
+                    - img [ref=e157] [cursor=pointer]
+                  - text: Dublin - Blackrock
+                - generic [ref=e159] [cursor=pointer]: Main Street
+            - generic [ref=e162] [cursor=pointer]:
+              - img "City Centre" [ref=e164] [cursor=pointer]
+              - generic [ref=e165] [cursor=pointer]:
+                - generic [ref=e166] [cursor=pointer]:
+                  - img "environment" [ref=e167] [cursor=pointer]:
+                    - img [ref=e168] [cursor=pointer]
+                  - text: Limerick - City Centre
+                - generic [ref=e170] [cursor=pointer]: O'Connell Avenue
+        - generic [ref=e171]:
+          - generic [ref=e172]:
+            - heading "Patient Stories" [level=2] [ref=e173]
+            - generic [ref=e174]: Real stories from real patients
+          - generic [ref=e175]:
+            - img "left" [ref=e177] [cursor=pointer]:
+              - img [ref=e178] [cursor=pointer]
+            - generic [ref=e180]:
+              - generic [ref=e181]: "\""
+              - generic [ref=e182]:
+                - img [ref=e184]
+                - generic [ref=e185]:
+                  - generic [ref=e186]: From Ventilator to Recovery in 6 Weeks
+                  - generic [ref=e187]: I was admitted with severe respiratory issues and the doctors here saved my life. The care, attention, and expertise of the medical team was exceptional. Within 6 weeks, I went from being on a ventilator to walking out of the hospital completely recovered. Forever grateful!
+                  - button "Read Full Story" [ref=e188] [cursor=pointer]:
+                    - generic [ref=e189] [cursor=pointer]: Read Full Story
+            - img "right" [ref=e191] [cursor=pointer]:
+              - img [ref=e192] [cursor=pointer]
+        - generic [ref=e198]:
+          - generic [ref=e199]:
+            - heading "Our Impact" [level=2] [ref=e200]
+            - generic [ref=e201]: Making a difference in healthcare
+          - generic [ref=e202]:
+            - generic [ref=e204]:
+              - generic [ref=e205]: 🏥
+              - generic [ref=e206]: "12"
+              - generic [ref=e207]: Hospitals
+            - generic [ref=e209]:
+              - generic [ref=e210]: 👨‍⚕️
+              - generic [ref=e211]: 500+
+              - generic [ref=e212]: Doctors
+            - generic [ref=e214]:
+              - generic [ref=e215]: 💉
+              - generic [ref=e216]: 50,000+
+              - generic [ref=e217]: Successful Surgeries
+            - generic [ref=e219]:
+              - generic [ref=e220]: 😊
+              - generic [ref=e221]: 1,000,000+
+              - generic [ref=e222]: Happy Patients
+    - button "Open chat" [ref=e224] [cursor=pointer]:
+      - img [ref=e225] [cursor=pointer]
+  - contentinfo [ref=e231]:
+    - generic [ref=e232]:
+      - generic [ref=e233]:
+        - generic [ref=e234]:
+          - heading "About" [level=4] [ref=e235]
+          - list [ref=e236]:
+            - listitem [ref=e237]:
+              - link "Overview" [ref=e238] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e239]:
+              - link "Management Team" [ref=e240] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e241]:
+              - link "Careers" [ref=e242] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e243]:
+              - link "Press Releases" [ref=e244] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e245]:
+          - heading "Centres of Excellence" [level=4] [ref=e246]
+          - list [ref=e247]:
+            - listitem [ref=e248]:
+              - link "Cardiology" [ref=e249] [cursor=pointer]:
+                - /url: /departments
+            - listitem [ref=e250]:
+              - link "Neurology" [ref=e251] [cursor=pointer]:
+                - /url: /departments
+            - listitem [ref=e252]:
+              - link "Orthopedics" [ref=e253] [cursor=pointer]:
+                - /url: /departments
+            - listitem [ref=e254]:
+              - link "Oncology" [ref=e255] [cursor=pointer]:
+                - /url: /departments
+        - generic [ref=e256]:
+          - heading "Specialties" [level=4] [ref=e257]
+          - list [ref=e258]:
+            - listitem [ref=e259]:
+              - link "Fertility" [ref=e260] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=e261]:
+              - link "Pediatrics" [ref=e262] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=e263]:
+              - link "Dermatology" [ref=e264] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=e265]:
+              - link "Ophthalmology" [ref=e266] [cursor=pointer]:
+                - /url: /services
+        - generic [ref=e267]:
+          - heading "Patients & Visitors" [level=4] [ref=e268]
+          - list [ref=e269]:
+            - listitem [ref=e270]:
+              - link "Appointments" [ref=e271] [cursor=pointer]:
+                - /url: /appointments/book
+            - listitem [ref=e272]:
+              - link "Insurance" [ref=e273] [cursor=pointer]:
+                - /url: /insurance
+            - listitem [ref=e274]:
+              - link "Visitor Guide" [ref=e275] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e276]:
+              - link "Emergency" [ref=e277] [cursor=pointer]:
+                - /url: /emergency
+      - generic [ref=e278]:
+        - generic [ref=e279]:
+          - text: © 2025 Hospital Management System. All rights reserved.
+          - generic [ref=e280]: "|"
+          - link "Disclaimer" [ref=e281] [cursor=pointer]:
+            - /url: "#"
+          - generic [ref=e282]: "|"
+          - link "Privacy Policy" [ref=e283] [cursor=pointer]:
+            - /url: "#"
+          - generic [ref=e284]: "|"
+          - link "Terms & Conditions" [ref=e285] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e286]:
+          - generic [ref=e287]: "Stay Connected:"
+          - generic [ref=e288]:
+            - link "📘" [ref=e290] [cursor=pointer]:
+              - /url: "#"
+            - link "🐦" [ref=e292] [cursor=pointer]:
+              - /url: "#"
+            - link "📷" [ref=e294] [cursor=pointer]:
+              - /url: "#"
+            - link "▶️" [ref=e296] [cursor=pointer]:
+              - /url: "#"
+  - generic [ref=e297] [cursor=pointer]: 💬
+```

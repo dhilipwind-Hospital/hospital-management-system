@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const health_article_controller_1 = require("../controllers/health-article.controller");
+const auth_middleware_1 = require("../middleware/auth.middleware");
+const error_middleware_1 = require("../middleware/error.middleware");
+const router = (0, express_1.Router)();
+router.get('/categories', (0, error_middleware_1.errorHandler)(health_article_controller_1.HealthArticleController.getCategories));
+router.get('/', (0, error_middleware_1.errorHandler)(health_article_controller_1.HealthArticleController.getArticles));
+router.get('/:id', (0, error_middleware_1.errorHandler)(health_article_controller_1.HealthArticleController.getArticle));
+router.post('/', auth_middleware_1.authenticate, (0, error_middleware_1.errorHandler)(health_article_controller_1.HealthArticleController.createArticle));
+router.put('/:id', auth_middleware_1.authenticate, (0, error_middleware_1.errorHandler)(health_article_controller_1.HealthArticleController.updateArticle));
+router.delete('/:id', auth_middleware_1.authenticate, (0, error_middleware_1.errorHandler)(health_article_controller_1.HealthArticleController.deleteArticle));
+exports.default = router;
