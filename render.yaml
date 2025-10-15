@@ -1,9 +1,4 @@
 services:
-  # PostgreSQL Database
-  - type: pserv
-    name: ayphen-hospital-db
-    plan: free
-
   # Backend Service
   - type: web
     name: ayphen-hospital-backend
@@ -18,9 +13,7 @@ services:
       - key: NODE_ENV
         value: production
       - key: DATABASE_URL
-        fromDatabase:
-          name: ayphen-hospital-db
-          property: connectionString
+        sync: false
       - key: JWT_SECRET
         value: ayphen-hospital-super-secret-key-2025
       - key: JWT_EXPIRES_IN
